@@ -1,0 +1,36 @@
+body{
+    background-color:#F4F4FD;
+    color:rgba(67, 68, 85, 1) ;
+}
+/* text logo rgba(77, 90, 229, 1) rgba(46, 47, 66, 1) */
+/* text nav rgba(46, 47, 66, 1) */
+/* text adress rgba(67, 68, 85, 1) */
+/* text h1 rgba(255, 255, 255, 1) */
+/* text button rgba(255, 255, 255, 1) */
+/* color secton 1  h2 rgba(46, 47, 66, 1)   p rgba(67, 68, 85, 1) */
+/* section 2,3 h2 h3 rgba(46, 47, 66, 1)  p rgba(67, 68, 85, 1)) */
+.logo{
+    color: rgba(46, 47, 66, 1);
+}
+.logo:hover{
+    color: blue;
+}
+/* o .list write to the class you need */
+ul{
+    list-style: none;
+}
+/* site nav */
+.site-nav .link{
+color: rgba(46, 47, 66, 1);
+}
+.site-nav .link:hover,
+.site-nav .link:focus
+{
+color: blue;
+}
+{
+    color: hotpink;
+}
+.hero{
+    color:rgba(255, 255, 255, 1) ;
+}
