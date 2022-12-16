@@ -144,23 +144,23 @@ color: #4D5AE5
     background-color:#FFFFFF ;
 
 }
-.button.primary{
+.button-primary{
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
-.button.primary:hover,
+.button-primary:hover,
 .hero-button:focus
 {
     color: #4D5AE5 ;
     background-color: #FFFFFF;
     cursor: pointer;
 }
-.button.secondary{
+.button-secondary{
     color: #4D5AE5;
     background: #F4F4FD;
 }
-.button.secondary:hover,
-.button.secondary:focus{
+.button-secondary:hover,
+.button-secondary:focus{
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
