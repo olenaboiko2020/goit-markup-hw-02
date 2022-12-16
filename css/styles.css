@@ -1,9 +1,16 @@
+:root{
+    --primary-text-color:#434455 ;
+    --secondary-text-color:#2E2F42;
+    --accent-color:#4D5AE5;
+    --primary-white-color:FFFFFF;
+}
 
 body{
-    background-color:FFFFFF;
-    color:#434455 ;
+    background-color:var(--primary-white-color);
+    color:var(--primary-text-color) ;
     font-family: "roboto",sans-serif;
 }
+
 /* header */
 .logo{
     font-family: 'Raleway';
@@ -15,11 +22,11 @@ body{
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
-    color: #2E2F42;
+    color: var(--secondary-text-color);
     text-decoration: none;
 }
 .text-colored{
-    color: #4D5AE5 ;
+    color: var(--accent-color) ;
 }
 
 ul{
@@ -31,54 +38,52 @@ ul{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em; 
-    color: #2E2F42; 
+    color:var(--secondary-text-color); 
     text-decoration: none;   
 }
+
 .header-link:hover,
 .header-link:focus {
-    color:#434455;
+    color:var(--primary-text-color);
 }
-.contact-link
-{
-    font-weight: 400;
+.contact-link{ 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
     text-decoration:none;
 }
 .contact-link:hover,
 .contact-link:focus
 {
-color: #4D5AE5
+color: var(--accent-color);
 }
 /* hero */
 .hero-title {
     font-weight: 500;
     font-size: 56px;
-    line-height: 1.o7;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 .hero-button {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color:#ffffff;
+    background:#4D5AE5;
 }
 .hero-button:active{
     background: #404BBF;
 }
 .hero-button:hover,
 .hero-button:focus{
-    background: #4D5AE5;
+    background:var(--accent-color);
     cursor: pointer;
 }
 
@@ -90,15 +95,17 @@ color: #4D5AE5
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--secondary-text-color);
 }
 .section-text,
-.team-text {
-    font-weight: 400;
+.team-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
+}
+.team{
+    background: #F4F4FD;
 }
 /* section work and section team*/
 .work-title,
@@ -109,11 +116,10 @@ color: #4D5AE5
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color:var(--secondary-text-color);
 }
 /* footer */
-.footer-text {
-    font-weight: 400;
+.footer-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -135,8 +141,7 @@ color: #4D5AE5
 
 }
 .button{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5px;
@@ -145,18 +150,18 @@ color: #4D5AE5
     text-align: center;
     letter-spacing: 0.04em;
     color: #434455;
-    background-color:#FFFFFF ;
+    background-color:var(--primary-white-color);
 
 }
 .button-primary{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: #ffffff;
+    background-color:#4D5AE5;
 }
 .button-primary:hover,
 .hero-button:focus
 {
-    color: #4D5AE5 ;
-    background-color: #FFFFFF;
+    color:#4D5AE5 ;
+    background-color:#ffffff;
     cursor: pointer;
 }
 .button-secondary{
@@ -165,7 +170,7 @@ color: #4D5AE5
 }
 .button-secondary:hover,
 .button-secondary:focus{
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
 }
@@ -174,13 +179,12 @@ color: #4D5AE5
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--secondary-text-color);
 
 }
-.examle-list{
-    font-weight: 400;
+.examle-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
