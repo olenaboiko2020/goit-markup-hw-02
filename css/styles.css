@@ -65,7 +65,7 @@ color: var(--accent-color);
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--primary-white-color);
+    color: var(--primary-white-color) ;
 }
 .hero-button {
     font-family: inherit;
@@ -154,6 +154,8 @@ color: var(--accent-color);
 
 }
 .button-primary{
+    font-family: inherit;
+    font-weight:500;
     color: #ffffff;
     background-color:#4D5AE5;
 }
@@ -165,6 +167,8 @@ color: var(--accent-color);
     cursor: pointer;
 }
 .button-secondary{
+    font-family: inherit;
+    font-weight:500;
     color: #4D5AE5;
     background: #F4F4FD;
 }
